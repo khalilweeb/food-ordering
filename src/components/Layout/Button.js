@@ -1,7 +1,7 @@
 import clss from "./Button.module.css";
 import CartIcon from "../Cart/CartIcon";
 const Button = (props) => {
-  return <button className={clss.button}>
+  return <button className={clss.button} onClick={props.onClick}>
     <span className={clss.icon}>
           <CartIcon/>
     </span>

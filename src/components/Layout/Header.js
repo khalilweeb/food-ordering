@@ -6,10 +6,10 @@ const Header = (props) => {
     <>
       <header className={clss.header}>
         <h1>khalil meals</h1>
-        <Button/>
+        <Button onClick={props.onClick}/>
  
       </header>
-      <div className={clss['main-image']}>
+      <div className={clss['main-image']} >
         <img src={mealsimg} alt="our meals"  />
       </div>
     </>
